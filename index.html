@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html for book ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of Code - Author Showcase</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">📖 Book<span>Craft</span></a>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#purchase" class="btn btn-primary nav-btn">Buy Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">New Release</span>
+                <h1>Mastering The Digital Canvas</h1>
+                <p class="subtitle">By Alex Rivers</p>
+                <p class="description">
+                    Uncover the hidden architecture of beautiful web systems. This comprehensive guide teaches you how to bridge the gap between complex logic and breathtaking visual design.
+                </p>
+                <div class="cta-group">
+                    <a href="#purchase" class="btn btn-primary">Grab Your Copy</a>
+                    <button id="open-preview" class="btn btn-secondary">Read Free Sample</button>
+                </div>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.9/5 (420+ reviews)</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="book-wrapper">
+                    <!-- Placeholder Book Cover using CSS -->
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-title">THE ART OF CODE</div>
+                        <div class="book-author">ALEX RIVERS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Book Feature Metrics -->
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <i class="fas fa-file-alt"></i>
+                <h3>340+ Pages</h3>
+                <p>Packed with actionable real-world insights.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-code"></i>
+                <h3>Interactive Source Code</h3>
+                <p>Access downloadable production-ready repositories.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset"></i>
+                <h3>Audiobook Companion</h3>
+                <p>Includes high-quality read-along audio files.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preview Modal -->
+    <div id="preview-modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Chapter 1: The Blueprint</h2>
+                <button class="close-modal" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Every great design begins with chaos.</strong> The true metric of an exceptional software engineer isn't how elegantly they structure clean patterns when requirements are clear, but how they systematically reduce friction when the terrain is unknown...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
